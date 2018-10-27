@@ -1,13 +1,10 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
 import Profile from './Profile';
-import Logo from "./asset/Logo.png";
-import '../public/App.css';
-import Dashboard from "./Dashboard";
-import NodeDevice0 from "./NodePage0"
-import NodeDevice1 from "./NodePage1"
-import NodeDevice2 from "./NodePage2"
-import NodeDevice3 from "./NodePage3"
+import Logo from "../public/img/Logo.png";
+import './css/App.css';
+import Dashboard from "./Dashboard/Dashboard";
+import NodeDevice0 from "./NodePage/NodePage0"
 
 const NodeName = [
     "Arduino Uno R3",
@@ -29,10 +26,7 @@ class App extends Component {
           <BrowserRouter>
               <div className="content">
                   <Route exact path="/" component={Home}/>
-                  <Route exact path="/Node0" component={node0}/>
-                  <Route exact path="/Node1" component={node1}/>
-                  <Route exact path="/Node2" component={node2}/>
-                  <Route exact path="/Node3" component={node3}/>
+                  <Route exact path="/NodePage" component={node}/>
               </div>
           </BrowserRouter>
 
@@ -46,28 +40,9 @@ function Home() {
      <Dashboard/>
     );
 }
-function node0() {
+function node() {
     return(
-        <NodeDevice0 title={NodeName[0]}/>
+        <NodeDevice0/>
     );
 }
-
-function node1() {
-    return(
-        <NodeDevice1 title={NodeName[1]}/>
-    );
-}
-
-function node2() {
-    return(
-        <NodeDevice2 title={NodeName[2]}/>
-    );
-}
-
-function node3() {
-    return(
-        <NodeDevice3 title={NodeName[3]}/>
-    );
-}
-
 export default App;

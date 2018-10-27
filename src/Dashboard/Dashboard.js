@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import Graph from "./Graph";
-import SensorList from "./SensorList";
-import DeviceList from "./DeviceList";
-import NodeList from "./NodeList";
-import TransectionList from "./TransectionList";
+import Graph from "./Graph/Graph";
+import SensorList from "./Sensor/SensorList";
+import DeviceList from "./Device/DeviceList";
+import NodeList from "./Node/NodeList";
+import TransectionList from "./Transection/TransectionList";
 
 
 class Dashboard extends Component{

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../public/SensorList.css'
+import '../../css/SensorList.css'
 import Sensor from "./Sensor";
 
 const sensorName= [

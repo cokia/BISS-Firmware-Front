@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Picture from './asset/Profile.jpg';
-import '../public/Profile.css';
+import Picture from '../public/img/Profile.jpg';
+import './css/Profile.css';
 
 
 class Profile extends Component {
