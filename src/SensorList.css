@@ -1,0 +1,13 @@
+.SensorList{
+    margin-left: 60px;
+    float: right;
+    padding: 20px 30px 10px 30px;
+    background-color: #fff;
+}
+
+.box{
+    width: 300px;
+    height: 250px;
+    overflow: hidden;
+    overflow-y: scroll;
+}

@@ -3,6 +3,12 @@ html{
   height: 100%;
   background-color: #f2f2f2;
 }
+
+.Logo{
+  float: left;
+  margin-left: 30px;
+  margin-top: 10px;
+}
 header{
   width: 1680px;
   height: 55px;

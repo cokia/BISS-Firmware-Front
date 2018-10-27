@@ -7,4 +7,9 @@
 
 h2{
     font-size: 11pt;
+    font-weight: 400;
+}
+
+h2 span{
+    font-weight: 800;
 }

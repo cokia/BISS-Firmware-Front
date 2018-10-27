@@ -1,4 +1,7 @@
-img{
-    display: flex;
-    margin-right: 30px;
+.Device{
+    width: 300px;
+}
+
+.Device span{
+    font-size: 11pt;
 }

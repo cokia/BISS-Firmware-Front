@@ -1,13 +1,17 @@
 import React, { Component } from 'react';
 import Profile from './Profile';
-import './App.css';
 import Graph from "./Graph";
+import Logo from "./Logo.png";
+import './App.css';
+import SensorList from "./SensorList";
+import DeviceList from "./DeviceList";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <header className="App-header">
+            <img className="Logo" src={Logo} alt="Logo" />
           <nav>
               <Profile />
           </nav>
@@ -15,6 +19,10 @@ class App extends Component {
           <div className="content">
               <h1><span>대시보드</span> DashBoard</h1>
               <Graph />
+              <SensorList /> <br/>
+              <DeviceList />
+
+
           </div>
       </div>
     );

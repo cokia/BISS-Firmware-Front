@@ -46,7 +46,7 @@ class Graph extends Component {
     render() {
         return(
             <div className="Graph">
-                <h2>PM2008 Cubic의 데이터</h2>
+                <h2><span>센서 그래프</span> Sensor Graph</h2>
                 <Line
                     data={this.state.data}
                     options={options}
