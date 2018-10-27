@@ -1,5 +1,5 @@
 
-.NodeContent{
+.DeviceContent{
     padding: 20px 40px 20px 40px ;
     width: 1220px;
     height: 705px;
@@ -36,5 +36,3 @@ td {
 td, th{
     display: table-cell;
 }
-
-

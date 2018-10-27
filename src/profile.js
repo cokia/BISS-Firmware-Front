@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Picture from '../public/img/Profile.jpg';
+import Picture from './img/Profile.jpg';
 import './css/Profile.css';
 
 

@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "chart.js": "^2.7.3",
+    "create-react-app": "^2.0.4",
     "react": "^16.6.0",
     "react-chartjs-2": "^2.7.4",
     "react-dom": "^16.6.0",

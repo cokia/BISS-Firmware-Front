@@ -1,20 +1,18 @@
-import React, { Component } from 'react';
-import Node from './Node';
+import React, { Component } from'react';
+import NodePict from '../../img/icons8-blockchain_technology.png';
 import '../../css/NodeList.css';
 
-const NodeName = [
-    "Arduino Uno R3",
-    "Arudino Nano",
-    "Arduino Mega",
-    "raspberry pi 3"
+const Data = [
+    ["1", "Arduino Uno R3", "0xad11e08d123d7b2fd22c0968283981154f32c110aadbb6ff43525138b23ee88c"],
+    ["2", "Arudino Nano", "0xad11e08d123d7b2fd22c0968283981154f32c110aadbb6ff43525138b23ee88c"],
+    ["3", "Arduino Mega", "0xad11e08d123d7b2fd22c0968283981154f32c110aadbb6ff43525138b23ee88c"],
+    ["4", "raspberry pi 3", "0xad11e08d123d7b2fd22c0968283981154f32c110aadbb6ff43525138b23ee88c"]
 ]
 
-const MACaddr = [
-    "fe80::c492:59ea:76ad:59cf%8",
-    "fe80::c492:59ea:76ad:59cf%8",
-    "fe80::c492:59ea:76ad:59cf%8",
-    "fe80::c492:59ea:76ad:59cf%8"
-]
+const asdf = Data.map(da => (<div className="Node"><img src={NodePict} alt="Node" /><p><a href={/NodePage/ + da[0]}><span>{da[1]}</span> <br /> {da[2].substr(1, 30)}...</a></p></div>));
+
+console.log(asdf)
+
 
 class NodeList extends Component {
     render() {
@@ -22,13 +20,11 @@ class NodeList extends Component {
             <div className="NodeList">
                 <h2><span>노드 목록</span>Node List</h2>
                 <div className="box">
-                    <a href="/Node0"><Node title={NodeName[0]} MACaddr={MACaddr[0]}/></a>
-                    <a href="/Node1"><Node title={NodeName[1]} MACaddr={MACaddr[1]}/></a>
-                    <a href="/Node2"><Node title={NodeName[2]} MACaddr={MACaddr[2]}/></a>
-                    <a href="/Node3"><Node title={NodeName[3]} MACaddr={MACaddr[3]}/></a>
+                    {asdf}
                 </div>
             </div>
         );
     }
 }
+
 export default NodeList;

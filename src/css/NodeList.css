@@ -5,3 +5,15 @@
     margin-top: 60px;
     margin-left: 80px;
 }
+
+.Node{
+    width: 300px;
+}
+
+.Node span{
+    font-size: 11pt;
+}
+
+a{
+    text-decoration: none;
+}

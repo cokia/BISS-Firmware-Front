@@ -4,3 +4,11 @@
     background-color: #fff;
     margin-top: 60px;
 }
+
+.Device{
+    width: 300px;
+}
+
+.Device span{
+    font-size: 11pt;
+}

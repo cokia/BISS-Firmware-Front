@@ -11,3 +11,14 @@
     overflow: hidden;
     overflow-y: scroll;
 }
+
+
+.Sensor{
+    font-size: 7pt;
+    width: 300px;
+}
+
+span{
+    font-size: 11pt;
+}
+
