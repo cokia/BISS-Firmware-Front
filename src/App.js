@@ -5,6 +5,8 @@ import Logo from "./Logo.png";
 import './App.css';
 import SensorList from "./SensorList";
 import DeviceList from "./DeviceList";
+import NodeList from "./NodeList";
+import TransectionList from "./TransectionList";
 
 class App extends Component {
   render() {
@@ -21,8 +23,8 @@ class App extends Component {
               <Graph />
               <SensorList /> <br/>
               <DeviceList />
-
-
+              <NodeList />
+              <TransectionList />
           </div>
       </div>
     );
