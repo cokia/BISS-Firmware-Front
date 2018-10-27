@@ -50,7 +50,7 @@ class Graph extends Component {
                 <Line
                     data={this.state.data}
                     options={options}
-                    width="800"
+                    width="780"
                     height="250"
                 />
             </div>
