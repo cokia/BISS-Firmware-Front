@@ -4,7 +4,7 @@ import './Graph.css';
 
 function chartData() {
     return {
-        labels: ['0sec', '25sec', '50sec', '75sec', '100sec', '125sec', '150sec'],
+        labels: ['2018.10.25', '2018.10.26', '2018.10.27', '2018.10.28', '2018.10.29', '2018.10.30', '2018.10.31'],
         datasets: [
             {
                 label: 'PM2008 Cubic',
@@ -16,7 +16,13 @@ function chartData() {
                 label: 'DHT-11',
                 borderColor: '#89F7FE',
                 backgroundColor: 'rgba(255, 255, 255, 0)',
-                data: [76, 40, 30, 80, 25, 38, 90]
+                data: [76, 40, 30, 70, 25, 38, 90]
+            },
+            {
+                label: 'Temperature Sensor',
+                borderColor: '#ff9328',
+                backgroundColor: 'rgba(255, 255, 255, 0)',
+                data: [37, 80, 25, 38, 10, 60, 8]
             }
         ]
     }

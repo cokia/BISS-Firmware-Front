@@ -1,19 +1,14 @@
 import React, { Component } from 'react';
 import Transection from './Transection';
+import Trans0 from './NodePage0'
+
 import './TransecrionList.css';
 
-const NodeName = [
-    "Arduino Uno R3",
-    "Arudino nano",
-    "Arduino mega",
-    "raspberry pi 3"
-]
-
-const MACaddr = [
-    "fe80::c492:59ea:76ad:59cf%8",
-    "fe80::c492:59ea:76ad:59cf%8",
-    "fe80::c492:59ea:76ad:59cf%8",
-    "fe80::c492:59ea:76ad:59cf%8"
+const txhash = [
+    "0xad11e08d123d7b2fd22c0968283981154f32c110aadbb6ff43525138b23ee88c",
+    "0xad11e08d123d7b2fd22c0968283981154f32c110aadbb6ff43525138b23ee88c",
+    "0xad11e08d123d7b2fd22c0968283981154f32c110aadbb6ff43525138b23ee88c",
+    "0xad11e08d123d7b2fd22c0968283981154f32c110aadbb6ff43525138b23ee88c"
 ]
 
 class TransectionList extends Component {
@@ -22,13 +17,21 @@ class TransectionList extends Component {
             <div className="TransectionList">
                 <h2><span>트렌젝션 목록</span>Transection List</h2>
                 <div className="box">
-                    <Transection title={NodeName[0]} MACaddr={MACaddr[0]} />
-                    <Transection title={NodeName[1]} MACaddr={MACaddr[2]} />
-                    <Transection title={NodeName[2]} MACaddr={MACaddr[2]} />
-                    <Transection title={NodeName[3]} MACaddr={MACaddr[3]} />
+                    <Transection title={txhash[0]} />
+                    <Transection title={txhash[1]} />
+                    <Transection title={txhash[2]} />
+                    <Transection title={txhash[3]} />
                 </div>
+
+
             </div>
         );
     }
+}
+
+function trans0() {
+    return (
+        <Trans0 />
+    );
 }
 export default TransectionList;

@@ -36,3 +36,11 @@ h1 span{
   margin-left: 200px;
   margin-top: 50px;
 }
+
+a{
+  color: black;
+}
+
+a:hover{
+  color: grey;
+}

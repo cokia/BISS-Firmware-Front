@@ -1,0 +1,57 @@
+.Logo{
+    float: left;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+header{
+    width: 1680px;
+    height: 55px;
+    background-color: #fff;
+    box-shadow: 0px -1px 10000px -20px #f7f7f7;
+}
+
+nav {
+    float: right;
+    min-height: 5vh;
+    display: flex;
+}
+
+.NodeContent{
+    padding: 20px 40px 20px 40px ;
+    width: 1220px;
+    height: 705px;
+    background-color: #fff;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+table{
+    border-collapse: collapse;
+    border-spacing: 20px;
+}
+
+thead{
+    font-weight: 600;
+}
+
+tbody{
+    font-weight: 300;
+    margin-top: 300px;
+}
+
+tr{
+    display: table-row;
+    vertical-align: baseline;
+    border-color: #000;
+}
+
+td {
+    width: 900px;
+    align-items: center;
+}
+
+td, th{
+    display: table-cell;
+}
+
+
