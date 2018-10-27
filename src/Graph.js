@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Line } from 'react-chartjs-2';
-import './Graph.css';
+import '../public/Graph.css';
 
 function chartData() {
     return {

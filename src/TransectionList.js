@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Transection from './Transection';
 import Trans0 from './NodePage0'
 
-import './TransecrionList.css';
+import '../public/TransecrionList.css';
 
 const txhash = [
     "0xad11e08d123d7b2fd22c0968283981154f32c110aadbb6ff43525138b23ee88c",

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Arduinoicon from './icons8-arduino.png';
-import './Sensor.css'
+import Arduinoicon from './asset/icons8-arduino.png';
+import '../public/Sensor.css'
 
 class Sensor extends Component {
     render() {

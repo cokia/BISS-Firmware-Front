@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
 import Profile from './Profile';
-import Logo from "./Logo.png";
-import './App.css';
+import Logo from "./asset/Logo.png";
+import '../public/App.css';
 import Dashboard from "./Dashboard";
 import NodeDevice0 from "./NodePage0"
 import NodeDevice1 from "./NodePage1"

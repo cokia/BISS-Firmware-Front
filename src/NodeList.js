@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Node from './Node';
-import './NodeList.css';
+import '../public/NodeList.css';
 
 const NodeName = [
     "Arduino Uno R3",

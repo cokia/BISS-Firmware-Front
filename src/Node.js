@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import NodePict from './icons8-blockchain_technology.png';
-import './Node.css'
+import NodePict from './asset/icons8-blockchain_technology.png';
+import '../public/Node.css'
 
 class Node extends Component {
     render() {

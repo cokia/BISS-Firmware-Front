@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Device from './Device';
-import './DeviceList.css';
+import '../public/DeviceList.css';
 
 const DeviceName = [
     "SAMSUNG GALAXY S8",

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Phone from './icons8-android.png';
-import './Device.css';
+import Phone from './asset/icons8-android.png';
+import '../public/Device.css';
 
 class Device extends Component {
     render() {
