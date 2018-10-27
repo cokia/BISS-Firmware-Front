@@ -1,0 +1,22 @@
+div{
+    float: right;
+}
+img{
+    margin-right: 25px;
+}
+p{
+    font-size: 7pt;
+}
+span{
+    font-size: 13pt;
+}
+
+i{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+img, p, i{
+    display: inline-block;
+}
+
+
